@@ -1,6 +1,6 @@
-import React from 'react'
-import {Link} from "react-router-dom"
-import "./sidebar.css"
+import React from "react";
+import { Link } from "react-router-dom";
+import "./sidebar.css";
 const Sidebar = () => {
   return (
     <div className="sidebar">
@@ -19,16 +19,40 @@ const Sidebar = () => {
       <div className="sidebarItem">
         <span className="sidebarTitle">CATEGORIES</span>
         <ul className="sidebarList">
-          <li className="sidebarListItem">Frontend</li>
-          <li className="sidebarListItem">Backend</li>
-          <li className="sidebarListItem">AWS Cloud</li>
-          <li className="sidebarListItem">AI/ML</li>
-          <li className="sidebarListItem">DevOps</li>
-          <li className="sidebarListItem">DevRel</li>
+          <li className="sidebarListItem">
+            <Link className="linkItem" to="/posts?cat=frontend">
+              Frontend
+            </Link>
+          </li>
+          <li className="sidebarListItem">
+            <Link className="linkItem" to="/posts?cat=backend">
+              Backend
+            </Link>
+          </li>
+          <li className="sidebarListItem">
+            <Link className="linkItem" to="/posts?cat=awscloud">
+              AWS Cloud
+            </Link>
+          </li>
+          <li className="sidebarListItem">
+            <Link className="linkItem" to="/posts?cat=aiml">
+              AI/ML
+            </Link>
+          </li>
+          <li className="sidebarListItem">
+            <Link className="linkItem" to="/posts?cat=devops">
+              DevOps
+            </Link>
+          </li>
+          <li className="sidebarListItem">
+            <Link className="linkItem" to="/posts?cat=devrel">
+              DevRel
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
   );
-}
+};
 
-export default Sidebar
+export default Sidebar;

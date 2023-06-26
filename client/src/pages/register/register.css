@@ -1,7 +1,5 @@
-.login {
-    font-family: "Varela Round", sans-serif;
+.register {
     height: calc(100vh - 50px);
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,36 +8,37 @@
             rgba(255, 255, 255, 0.5)),
         url("https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
     background-size: cover;
+    font-family: "Varela Round", sans-serif;
 }
 
-.loginTitle {
+.registerTitle {
     font-size: 50px;
 }
 
-.loginForm {
+.registerForm {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.loginForm>label {
-    margin: 1rem 0;
+.registerForm>label {
+    margin: 10px 0;
 }
 
-.loginInput {
-    width: 70vh;
+.registerInput {
     padding: 10px;
     background-color: white;
     border: none;
     border-radius: 10px;
     font-family: "Varela Round", sans-serif;
+    width: 70vh;
 }
 
-.loginInput:focus {
+.registerInput:focus {
     outline: none;
 }
 
-.loginButton {
+.registerButton {
     margin-top: 20px;
     cursor: pointer;
     background-color: teal;
@@ -51,7 +50,7 @@
     font-family: "Varela Round", sans-serif;
 }
 
-.loginRegisterButton {
+.registerLoginButton {
     position: absolute;
     top: 60px;
     right: 20px;
@@ -62,5 +61,4 @@
     color: white;
     border-radius: 10px;
     font-family: "Varela Round", sans-serif;
-   
 }

@@ -21,9 +21,9 @@ export default function SinglePost() {
           <span>
             Author:
             <b className="singlePostAuthor">
-              {/* <Link className="link" to="/posts?username=Safak">
+              <Link className="link" to="/posts?username=Ednah">
                 Ednah
-              </Link> */}
+              </Link>
               Ednah Akoth
             </b>
           </span>

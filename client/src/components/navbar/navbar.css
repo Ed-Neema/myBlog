@@ -43,13 +43,19 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
 }
 .topListItem {
     margin-right: 20px;
     font-size: 18px;
     font-weight: 300;
     cursor: pointer;
+    text-decoration: none;
 }
+/* .linkItem {
+    text-decoration: none;
+    color:inherit;
+} */
 .topSearchIcon {
     font-size: 18px;
     color: #666;
